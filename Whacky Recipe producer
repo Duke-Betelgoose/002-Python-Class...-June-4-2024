@@ -1,0 +1,8 @@
+print("Let's Make an interesting recipe")
+print("Okay?")
+foodType = input("What meal you you want us to make?")
+plantType = input("What plant makes up the food?")
+methodType = input("What is the most suitable way to prepare")
+burnedFood = input("How do you know if the food is burned?")
+householdItem = input("What is the most commonly used household item?")
+print("Now, we will be cooking",foodType, "with",burnedFood,plantType, "on a bed of", householdItem,". We will be using the",methodType, "approach.")
