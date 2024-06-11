@@ -1,0 +1,14 @@
+print ("Muindi Kilelo University Login Page")
+print ()
+username = input("Usurname >:")
+password  = input("password")
+
+if username == "Paul" and password == "Jade123!":
+  print ("Welcome Paul!")
+elif username == "James" and password == "James123!":
+  print ("Welcome James")
+elif username == "Jane" and password == "Jane 123!":
+  print ("Welcome Jane")
+else:
+  print ("Invalid Username or Password.")
+  print ("Reset Password?")
