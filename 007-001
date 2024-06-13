@@ -1,0 +1,27 @@
+print("Fake Fan Question Generator")
+
+interests = input("What are you mostly interested in?")
+if interests == "Movies":
+  print("Wow, good taste")
+  favMovie = input("what is your favourite movie?")
+  if favMovie == "Avatar":
+    print("we have the same taste")
+  else:
+    print("Great!!! But, it's not my favourite movie.")
+  avataryn = input ("Have you watched Avatar?:")
+  if avataryn == "yes":
+      print("Awesome I watched and enjoyed the movie.")
+      favCharacter = input("best character in the movie?")
+      if favCharacter == "Jake":
+        print("You are a true fan")
+      else:
+        print("Too bad, I like Jake")
+  else:
+    print("You should watch it")
+elif interests == "Music":
+  print("I also like music")
+  favGenre = input("What is your favourite genre?")
+  if favGenre == "Rock":
+    print("rock is awesome!")
+else:
+  print("bye")-
