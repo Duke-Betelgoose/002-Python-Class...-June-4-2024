@@ -1,0 +1,21 @@
+print ("add")
+adding = 4+3
+print(adding)
+print("Munus")
+subtraction = 8-7
+print(subtraction)
+print("times")
+multiplication = 5*5
+print(multiplication)
+print("divide")
+division = 50/5
+print(division)
+print("sq")
+squared = 5**2
+print(squared)
+print("modulpe")
+modulo = 15%4
+print(modulo)
+print("divisorpp")
+divisor = 15//2
+print(divisor)
